@@ -78,7 +78,7 @@ DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @b
 		PRINT '                       ';
 
 		PRINT '-----------------------------------------------------------';
-		PRINT 'Loading CRM Tables';
+		PRINT 'Loading ERP Tables';
 		PRINT '-----------------------------------------------------------';
 
 		SET @start_time = GETDATE();

@@ -72,6 +72,10 @@ GO
 -- =============================================================================
 -- Create Fact Table: gold.fact_sales
 -- =============================================================================
+IF OBJECT_ID('gold.fact_sales', 'V') IS NOT NULL
+    DROP VIEW gold.fact_sales;
+GO
+	
 CREATE VIEW gold.fact_sales AS 
 SELECT 
 	sls_ord_num  AS order_number,
